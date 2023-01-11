@@ -7,7 +7,9 @@
     <title>RiaAgungStore</title>
      <!-- Bootstrap CSS -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
         <!-- ini navbar -->
@@ -63,10 +65,7 @@
     <input type="text" name="id" placeholder="Masukkan ID Pemain"><br>
     <p style="color: #df1919;">*Id Pemain Diperlukan</p>
     
- <div class="card mb-2">
-        <div class="card-body" style="background: linear-gradient(to bottom, #3e3c3c, transparent);">
-
- 
+    <div class="card-body" style="background: linear-gradient(to bottom, #3e3c3c, transparent);">
 
      <legend style="color: hwb(0 94% 4%);">Metode Pembayaran</legend>
      <input type="radio" class="btn-check" name="metode" id="ovo" value="OVO">
@@ -81,10 +80,9 @@
      <input type="radio" class="btn-check" name="metode" id="gopay" value="Gopay">
      <label class="btn btn-outline-dark" for="gopay">Gopay</label>
     </div>
-    </div><br>
+      <br>
     
-    <div class="card mb-2">
-    <div class="card-body" style="background: linear-gradient(to bottom, #3e3c3c, transparent);">
+    <div class="card-body" style="background: linear-gradient(to top, #3e3c3c, transparent);">
 
 <legend style="color: hwb(0 94% 4%);">Pilih Nominal</legend>
   <input type="radio" class="btn-check" name="nominal" id="btnradio1" value="263 UC = Rp. 50.000" autocomplete="off">
@@ -105,13 +103,26 @@
   <input type="radio" class="btn-check" name="nominal" id="btnradio6" value="2425 UC = Rp. 406.000" autocomplete="off">
   <label class="btn btn-outline-dark" for="btnradio6">2425 UC = Rp. 406.000</label><br><br>
 
-  <button type="submit" href="" style="background: #3e3c3c; color: white;">KIRIM</button>
-          </div>
+  <button type="submit" class="btn btn-dark" href="success.php" style="background: #3e3c3c; color: white;">KIRIM</button>
+
       </div>
       </form>
+      <br>
       <footer>
-        
+           <br><h3>PUBG STORE</h3>
+            <p>Terimakasih sudah mengunjungi store kami</p>
+            <h2>RiaAgungSTORE</h2>
+            <ul class="socials">
+            <li><a href="https://instagram.com/_mhrndiva?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.instagram.com/agungderiko_nainggolan/"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/agung.deriko"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://github.com/agung6544"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UClK0lkjzPcxi96gvHqiaZ9g"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        <footer class="bottom">
+          <p>copyright 2023 <span></span></p>
       </footer>
+        </footer>
 </div>
 
   
